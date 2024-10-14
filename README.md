@@ -4,7 +4,7 @@
 
 
 <p align="center">
-Sukbear's website is deployed on Cloudflare and uses the Nuxt UI😊
+Sukbear's website is deployed on Cloudflare and uses the Nuxt UI. 😁
 </p>
 
  
