@@ -2,7 +2,7 @@
 <!-- eslint-disable no-empty -->
 <script setup>
 const colorMode = useColorMode()
-const { locale, setLocale } = useI18n()
+const { locale, setLocale,t } = useI18n()
 const isOpen = ref(false)
 const prompt = ref('')
 const loading = ref(false)
@@ -13,6 +13,7 @@ const models = ref([])
 
 const markdownit = window.markdownit
 const hljs = window.hljs
+
 
 const md = markdownit({
   highlight: function (str, lang) {
@@ -173,8 +174,16 @@ async function fetchChatCompletions() {
             class="text-sm text-gray-500 hover:text-gray-700"
             @click="isOpen = true"
           >
-            问AI
+            {{ t('ai') }}
           </span>
+          .
+          <a
+            class="text-sm text-gray-500 hover:text-gray-700"
+            target="_blank"
+            href="mailto:suk.bear.suwu@gmail.com"
+          >
+            {{ t('contact') }}
+          </a>
         </div>
       </footer>
     </UContainer>

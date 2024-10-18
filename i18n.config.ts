@@ -11,6 +11,8 @@ export default defineI18nConfig(() => ({
   locale: 'zh-hans',
   messages: {
     'zh-hans': {
+      contact: '联系我',
+      ai: '问AI',
       greeting: '嗨！我是 suk.bear',
       bio: '我是一名Web开发技术员，专攻JavaScript（TypeScript）、Vue3（Nuxt3、uni-app&小程序）和Web性能。',
       savingGreeting: '嗨!',
@@ -101,6 +103,8 @@ export default defineI18nConfig(() => ({
       }
     },
     'en': {
+      contact: 'Contact',
+      ai: 'AI',
       greeting: 'Hi! I am suk.bear',
       bio: 'I am a web developer, specializing in JavaScript (TypeScript), Vue3 (Nuxt3, uni-app & wechat-app) and web performance.',
       savingGreeting: 'hi!',
