@@ -176,7 +176,7 @@ async function fetchChatCompletions() {
           >
             {{ t('ai') }}
           </span>
-          .
+          ·
           <a
             class="text-sm text-gray-500 hover:text-gray-700"
             target="_blank"
